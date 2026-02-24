@@ -1,0 +1,43 @@
+# =====================
+# macOS files
+# =====================
+.DS_Store
+
+# =====================
+# World data (backed up separately via backup script)
+# =====================
+MinecraftServer/world/
+MinecraftServer/world_nether/
+MinecraftServer/world_the_end/
+
+# =====================
+# Logs and caches
+# =====================
+MinecraftServer/logs/
+MinecraftServer/cache/
+MinecraftServer/libraries/
+MinecraftServer/versions/
+MinecraftServer/plugins/Geyser-Spigot/cache/
+MinecraftServer/plugins/Geyser-Spigot/locales/
+MinecraftServer/plugins/Geyser-Spigot/packs/
+MinecraftServer/plugins/bStats/
+MinecraftServer/plugins/spark/
+
+# =====================
+# Runtime/temp files
+# =====================
+MinecraftServer/usercache.json
+MinecraftServer/version_history.json
+MinecraftServer/.console_history
+MinecraftServer/plugins/.paper-remapped/
+
+# =====================
+# Sensitive files
+# =====================
+MinecraftServer/plugins/floodgate/key.pem
+MinecraftServer/plugins/playit-gg/config.yml
+
+# =====================
+# Backups (stored locally, not in git)
+# =====================
+backups/

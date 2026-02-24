@@ -1,0 +1,73 @@
+This is your Official Server Operations Manual. Your dad is acting as your Technical Consultant—he’s there to help with the heavy lifting (like permissions and downloads), but you are the Lead Admin.
+
+The goal: Turn your Mac mini into a powerhouse that lets your Java and Bedrock friends play together in one world.
+
+🎮 Mission: Project "Mini-Hive"
+The Plan for the New Lead Admin
+
+1. The Strategy (The "Why")
+The Brains: You’re using PaperMC. It’s a special version of Minecraft that runs smoother than the regular one and allows you to add "Plugins" (cool extra features).
+
+The Bridge: Since you have friends on iPads and PCs, you’ll use GeyserMC. It’s a "translator" that lets Bedrock players join a Java world.
+
+The Shield: Instead of giving out your home address, you’ll use Playit.gg. It creates a "secret tunnel" so your friends can connect safely without messing with the house router.
+
+2. Phase 1: Pre-Flight Check
+Goal: Get the Mac ready for launch.
+
+Fuel the Engine: You need Java 21. Ask your Consultant (Dad) to help you download the "macOS ARM64" version from Adoptium.net.
+
+Create HQ: Create a new folder on your Desktop and name it MinecraftServer. Everything goes in here.
+
+Download the Core: Get the latest file from PaperMC.io.
+
+Admin Tip: Rename that long file name to just server.jar. It makes typing commands much easier later.
+
+3. Phase 2: The First Ignition
+Goal: Sign the "EULA" contract and build the world.
+
+Open the Terminal: This is your Admin Control Panel. (Command + Space, type "Terminal").
+
+Go to HQ: Type cd (add a space!) and then drag your MinecraftServer folder into the window. Hit Enter.
+
+Start the Engine: Type: java -jar server.jar
+
+The Lock: The server will stop. This is normal. Find the new file in your folder called eula.txt. Change eula=false to eula=true. Save it.
+
+Blast Off: Run the command again. Watch the text fly by—that’s your world being born.
+
+4. Phase 3: Building the Bridge
+Goal: Let the iPad/Bedrock friends join the fun.
+
+Find the Plugins Folder: In your server folder, find the folder named plugins.
+
+Add the Bridge: Download Geyser-Spigot from GeyserMC.org and drop it into that folder.
+
+The "Floodgate": Download Floodgate from the same site and put it in the same folder. This makes it so your iPad friends don't have to struggle to log in.
+
+Reboot: Type stop in the Terminal, wait for it to finish, then start the server again.
+
+5. Phase 4: Opening the Gates
+Goal: Get your friends connected safely.
+
+The Tunnel: Ask your Consultant to help you install the Playit.gg Mac app.
+
+The Magic Link: Run Playit. It will give you a web link. Open it and click "Add Tunnel".
+
+The Address: Select Minecraft Java. Playit will give you a special address like cool-dragon.ply.gg.
+
+The Invite: Give that address to your friends. They type that in as the "Server Address" in their game.
+
+6. The Admin Code (Your Jobs)
+Now that you are the Boss, you have three main jobs:
+
+The Protector: Never give the server address to strangers. Only friends you know in real life!
+
+The Time Traveler (Backups): Every few days, copy the folder named world and put it somewhere safe. If someone accidentally burns down the village, you can use the backup to travel back in time.
+
+The Gatekeeper: Use the command /whitelist on in the Terminal. Then, type /whitelist add [FriendName] to let people in. This keeps "uninvited guests" out.
+
+Your First Admin Command
+Once the server is running, try typing this into the Terminal: /op [YourMinecraftName]
+
+This gives you "Operator" powers in the game. You'll be able to change the weather, fly, and switch to Creative mode whenever you want.
