@@ -39,7 +39,7 @@ heartsPerKill: 1
 heartsPerNaturalDeath: 1
 # The minimal amount of hearts. If a player gets to this amount of hearts, they will be eliminated.
 # PLEASE ONLY CHANGE IF YOU KNOW WHAT YOU ARE DOING!
-minHearts: 0
+minHearts: 5
 # This option will enforce the heart limit on admin commands like /lifestealz hearts <add, set> <player> <amount>
 # Note that this
 enforceMaxHeartsOnAdminCommands: false
@@ -104,7 +104,7 @@ preventCustomItemsInItemFrames: true
 # === Extensive Customization ===
 
 # Only disable this option if you want to add custom commands on elimination and don't want the player to get banned
-disablePlayerBanOnElimination: false
+disablePlayerBanOnElimination: true
 # If the killer should gain a heart on elimination
 heartRewardOnElimination: true
 
@@ -112,8 +112,8 @@ heartRewardOnElimination: true
 # You can use &player& to insert the player name
 # For example: tempban &player& banreason 1d
 eliminationCommands:
-# - "say &player& got eliminated"
-# - "niceCommandtwo"
+  - "lifestealz hearts set &player& 10"
+  - "say &player& lost all their hearts and has been reset to 10!"
 
 # These commands will be executed when a player uses a heart item
 heartuseCommands:

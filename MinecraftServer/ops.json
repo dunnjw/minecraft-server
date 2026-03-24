@@ -6,8 +6,44 @@
     "bypassesPlayerLimit": false
   },
   {
+    "uuid": "00000000-0000-0000-0009-01fedd1ac5e0",
+    "name": ".totolinyo1",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "00000000-0000-0000-0009-01f451e3cc3f",
+    "name": ".lgerenger",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "00000000-0000-0000-0009-01fb7d2be696",
+    "name": ".VinyMarble9235",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
     "uuid": "b744d11c-3add-43cf-a36b-1cf84f3f1509",
     "name": "Kifoles",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "00000000-0000-0000-0009-01ffc04ea031",
+    "name": ".kitcatisgreat",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "00000000-0000-0000-0009-000003cce394",
+    "name": ".tgerenger1",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "00000000-0000-0000-0009-01fe4355abd9",
+    "name": ".YumYumDinosaur",
     "level": 4,
     "bypassesPlayerLimit": false
   }
