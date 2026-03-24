@@ -1,0 +1,17 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "The Chive",
+    "description": "Chive hearts for The Chive server!",
+    "uuid": "a3b2c1d4-e5f6-4a7b-8c9d-0e1f2a3b4c5d",
+    "version": [1, 1, 0],
+    "min_engine_version": [1, 21, 0]
+  },
+  "modules": [
+    {
+      "type": "resources",
+      "uuid": "b4c3d2e1-f6a7-4b8c-9d0e-1f2a3b4c5d6e",
+      "version": [1, 0, 0]
+    }
+  ]
+}
